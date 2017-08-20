@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.min.css">
+    <script src="values.js"></script>
+    <script src="js.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+            <a href="../index.html" class="brand-logo left" style="margin-left:20px;"><i class="material-icons circle" style="font-size:50px;">chevron_left</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down" style="margin-right:50px;">
+                <li><a href="../index.html#container2">Projects</a></li>
+                <li><a href="../index.html#container3">Skills</a></li>
+                <li><a href="../index.html#container4">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="container1">
+            <center>
+                <div class="card" style="padding:40px;">
+                    <img class="center-block z-depth-2" id="app-icon" src='' border='0' />
+                    <h4 id="title"></h4>
+                    <p id="description"></p>
+                    <p id="status"></p>
+                </div>
+                <a target='_blank' id="website" class="waves-effect waves-light btn btn-large grey darken-1" style="margin:10px;"><i class="material-icons left">web</i>visit Website</a>
+            </center>
+
+            <div class="card" style="padding:20px;">
+                <h5>Screenshots:</h5>
+                <div class="gallery">
+                    <div class="gallery-container">
+                        <img id="gallery-img" class="img1 z-depth-1" width="300" height="530">
+                        <img id="gallery-img" class="img2 z-depth-1" width="300" height="530">
+                        <img id="gallery-img" class="img3 z-depth-1" width="300" height="530">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="featuredCard" style="padding:20px;">
+                <h5>Featured:</h5>
+                <div class="featured">
+                </div>
+            </div>
+            <div class="card" style="padding:20px;">
+                <h5>Technologies:</h5>
+                <div class="technologies">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
